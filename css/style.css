@@ -21,7 +21,8 @@ aside {
 }
 
 header {
-    background-color: blue;
+    background-color: black;
+    opacity: 0.9;
 }
 
 main {
@@ -110,24 +111,25 @@ aside {
     color: white;
 }
 
-
 header {
     width: calc(100vw - 200px);
     height: 80px;
     float: left;
-}
-
-header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
 .btn-account {
-    width: 130px;
-    height: 40px;
+    width: 140px;
+    height: 35px;
     border-radius: 20px;
-    font-size: 15px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-right: 15px;
 }
 
 main {
