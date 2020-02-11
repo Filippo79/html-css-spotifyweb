@@ -45,15 +45,29 @@ aside {
     justify-content: center;
     align-items: center;
     color: white;
-
 }
+
+.logo img {
+    height: 40px;
+    width: 140px;
+}
+
+
 
 .menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu i {
     color: lightgrey;
+    font-size: 30px;
 
 }
 
