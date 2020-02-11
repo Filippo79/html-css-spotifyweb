@@ -57,27 +57,59 @@ aside {
 .menu {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding: 25px;
 }
 
 .menu li {
+    padding: 5px;
+    padding-right: 5px;
     list-style: none;
 }
 
 .menu i {
     color: lightgrey;
     font-size: 30px;
+}
+
+.menu a {
+    color: lightgray;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 15px;
+}
+
+.menu li:active {
+    background-color: darkgray;
+    color: white;
 
 }
 
 .playlist {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     color: lightgrey;
 }
+
+.playlist li {
+    padding: 5px;
+    padding-right: 5px;
+    list-style: none;
+}
+
+.playlist i {
+    color: lightgrey;
+    font-size: 30px;
+}
+
+.playlist a {
+    color: lightgray;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 15px;
+}
+
 
 header {
     width: calc(100vw - 200px);
