@@ -18,26 +18,42 @@ aside, header, main {
 
 aside {
     background-color: black;
+    width: 200px;
+    height: calc(100vh - 90px);
+    float: left;
 }
 
 header {
     background-color: black;
     opacity: 0.9;
+    width: calc(100vw - 200px);
+    height: 80px;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 main {
     background-color: green;
     padding: 50px 0 0 50px;
+    width: calc(100vw - 200px);
+    height: calc(100vh - 90px);
+    float: left;
+    overflow-y: auto;
 }
 
 footer {
     background: blue;
+    float: left;
+    height: 90px;
+    width: 100vw;
 }
 
-aside {
-    width: 200px;
-    height: 100vh;
-    float: left;
+.aside-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo {
@@ -117,16 +133,18 @@ aside {
 
 .installa {
     display: flex;
-    
+    justify-content: center;
 }
 
-header {
-    width: calc(100vw - 200px);
-    height: 80px;
-    float: left;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.installa-app i {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.installa-app a {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 10px;
 }
 
 .btn-account {
@@ -139,17 +157,4 @@ header {
     font-size: 10px;
     text-transform: uppercase;
     margin-right: 15px;
-}
-
-main {
-    width: calc(100vw - 200px);
-    height: calc(100vh - 80px);
-    float: left;
-    overflow-y: auto;
-}
-
-footer {
-    float: left;
-    height: 90px;
-    width: 100vw;
 }
