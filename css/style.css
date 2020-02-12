@@ -35,7 +35,7 @@ header {
 }
 
 main {
-    background-color: green;
+    background-color: darkgrey;
     padding: 50px 0 0 50px;
     width: calc(100vw - 200px);
     height: calc(100vh - 90px - 80px);
@@ -50,6 +50,30 @@ footer {
     height: 90px;
     width: 100vw;
 }
+
+@media screen and (max-width: 420px) {
+    aside {
+        width: 70px;
+    }
+    aside a {
+        display: none;
+    }
+    aside h5 {
+        display: none;
+    }
+    aside .playlist li {
+        display: none;
+    }
+    header {
+        width: calc(100vw - 70px);
+    }
+    main {
+        width: calc(100vw - 70px);
+    }
+}
+
+
+
 
 .aside-top {
     display: flex;
