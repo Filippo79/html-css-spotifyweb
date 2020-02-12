@@ -172,6 +172,11 @@ footer {
     font-size: 15px;
 }
 
+.installa-app i:hover {
+    color: white;
+    cursor: pointer;
+}
+
 .installa-app a {
     color: lightgray;
     text-decoration: none;
@@ -187,6 +192,11 @@ footer {
 .name i {
     color: lightgray;
     font-size: 20px;
+}
+
+.name i:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .name a {
@@ -238,6 +248,11 @@ footer {
     padding: 20px;
 }
 
+.preferiti i:hover {
+    color: white;
+    cursor: pointer;
+}
+
 .commandi {
     text-align: center;
     padding: 20px;
@@ -247,6 +262,11 @@ footer {
     color: lightgrey;
     font-size: 20px;
     padding: 5px;
+}
+
+.commandi i:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .time::after {
@@ -266,6 +286,11 @@ footer {
     color: lightgrey;
     font-size: 15px;
     padding: 5px;
+}
+
+.volume i:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .volume-after::after {
