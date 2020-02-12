@@ -61,6 +61,7 @@ aside {
     padding: 5px;
     padding-right: 5px;
     list-style: none;
+    cursor: pointer;
 }
 
 .menu i {
@@ -77,6 +78,7 @@ aside {
 
 .menu li:active {
     background-color: darkgray;
+    border-radius: 10px;
     color: white;
 }
 
@@ -91,6 +93,7 @@ aside {
     padding-right: 5px;
     margin-top: 5px;
     list-style: none;
+    cursor: pointer;
 }
 
 .playlist i {
@@ -109,6 +112,12 @@ aside {
 .playlist li:active {
     background-color: darkgray;
     color: white;
+    border-radius: 10px;
+}
+
+.installa {
+    display: flex;
+    
 }
 
 header {
