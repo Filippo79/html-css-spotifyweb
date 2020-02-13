@@ -238,9 +238,10 @@ footer {
 }
 
 .card-album {
-    flex: 0 0 200px;
+    flex: 0 1 250px;
     background-color: #262626;
     border-radius: 10px;
+    margin: 10px;
 
 }
 .card-immagine {
@@ -250,7 +251,8 @@ footer {
 
 .card-immagine img {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .card-track {
@@ -264,6 +266,18 @@ footer {
 
 .card-track small {
     color: lightgrey
+}
+.play {
+    display: flex;
+    justify-content: center;
+}
+.play i {
+    font-size: 40px;
+    color: forestgreen;
+}
+
+.play i:hover {
+    display: block;
 }
 
 
@@ -308,9 +322,10 @@ footer {
 }
 
 .commandi i:hover {
-    color: white;
+    color: forestgreen;
     cursor: pointer;
 }
+
 
 .time::after {
     content: "";
