@@ -97,7 +97,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
 .logo img {
@@ -114,6 +113,7 @@ footer {
     padding-right: 5px;
     list-style: none;
     cursor: pointer;
+    color: lightgrey;
 }
 
 .menu li:hover {
@@ -124,7 +124,6 @@ footer {
     background-color: darkgray;
     color: white;
     border-radius: 10px;
-
 }
 
 .menu i {
