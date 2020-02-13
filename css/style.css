@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/* FLOAT */
-
 .float::after {
     content: '';
     display: table;
@@ -17,11 +15,15 @@ aside, header, main {
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: black;
     width: 200px;
     height: calc(100vh - 90px);
     float: left;
 }
+
 
 header {
     background-color: black;
@@ -35,7 +37,7 @@ header {
 }
 
 main {
-    background-color: darkgrey;
+    background-color: #0d0d0d;
     padding: 50px 0 0 50px;
     width: calc(100vw - 200px);
     height: calc(100vh - 90px - 80px);
@@ -55,15 +57,13 @@ footer {
     aside {
         width: 70px;
     }
-    aside a {
-        display: none;
-    }
-    aside h5 {
-        display: none;
-    }
+    aside a,
+    aside h5,
     aside .playlist li {
+
         display: none;
     }
+
     header {
         width: calc(100vw - 70px);
     }
@@ -71,9 +71,6 @@ footer {
         width: calc(100vw - 70px);
     }
 }
-
-
-
 
 .aside-top {
     display: flex;
@@ -159,7 +156,6 @@ footer {
 .installa {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
     border-bottom: 1px solid lightgrey;
 }
 
@@ -223,6 +219,41 @@ footer {
     background-color: lightgrey;
     color: black;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-album {
+    flex: 0 0 200px;
+    background-color: #262626;
+    border-radius: 10px;
+
+}
+.card-immagine {
+    display: flex;
+    justify-content: center;
+}
+
+.card-immagine img {
+    width: 100%;
+    padding: 15px;
+}
+
+.card-track {
+    text-align: center;
+    padding: 15px;
+}
+
+.card-track h3 {
+    color: white;
+}
+
+.card-track small {
+    color: lightgrey
+}
+
 
 .player {
     display: flex;
