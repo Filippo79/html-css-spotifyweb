@@ -146,6 +146,12 @@ footer {
     cursor: pointer;
 }
 
+.playlist li:active {
+    background-color: darkgray;
+    color: white;
+    border-radius: 10px;
+}
+
 .playlist i {
     color: lightgrey;
     font-size: 30px;
@@ -157,12 +163,6 @@ footer {
     list-style: none;
     padding-left: 15px;
     font-size: 15px;
-}
-
-.playlist li:active {
-    background-color: darkgray;
-    color: white;
-    border-radius: 10px;
 }
 
 .installa {
