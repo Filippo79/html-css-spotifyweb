@@ -57,16 +57,30 @@ footer {
     aside {
         width: 70px;
     }
-    aside a,
-    aside h5,
-    aside .playlist li {
-
+    .logo img {
         display: none;
     }
 
-    header {
-        width: calc(100vw - 70px);
+    .logo-spotify {
+        display: flex;
+        justify-content: center;
+        padding: 4px;
+
     }
+
+    .logo-spotify i {
+        visibility: visible;
+        color: forestgreen;
+        text-align: center;
+        font-size: 40px;
+    }
+    aside a,
+    aside h5,
+    aside .playlist li {
+        display: none;
+    }
+
+    header,
     main {
         width: calc(100vw - 70px);
     }
@@ -90,6 +104,8 @@ footer {
     height: 60px;
     width: 200px;
 }
+
+/* spotify logo mobile */
 
 .menu {
     padding: 10px;
@@ -123,13 +139,11 @@ footer {
 .playlist {
     padding: 10px;
     color: lightgrey;
-    margin-top: 15px;
 }
 
 .playlist li {
     padding: 5px;
     padding-right: 5px;
-    margin-top: 5px;
     list-style: none;
     cursor: pointer;
 }
@@ -182,7 +196,6 @@ footer {
 .name {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
 }
 
 .name i {
@@ -211,7 +224,6 @@ footer {
     color: white;
     font-size: 10px;
     text-transform: uppercase;
-    margin-right: 15px;
     cursor: pointer;
 }
 
